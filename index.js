@@ -1,7 +1,7 @@
 const express    = require("express"),
       app        = express(),
-      cors       = require("cors"),
-      morgan     = require("morgan"),
+      cors       = require("cors"),//cross origin resource sharing: allows us to make a request to localhost:3001 from localhost:3000
+      morgan     = require("morgan"),// for server side login
       bodyParser = require("body-parser"),
       todoRoutes = require("./routes/todos");
 
